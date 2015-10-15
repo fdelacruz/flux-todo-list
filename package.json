@@ -1,0 +1,36 @@
+{
+  "name": "flux-todo-list",
+  "version": "1.0.0",
+  "description": "A Todo List built on React and Flux",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm run build && npm run dev-server",
+    "build": "./node_modules/.bin/webpack",
+    "dev-server": "node_modules/.bin/http-server -p 3000 public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdelacruz/flux-todo-list.git"
+  },
+  "keywords": [
+    "react",
+    "flux"
+  ],
+  "author": "Francisco De La Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdelacruz/flux-todo-list/issues"
+  },
+  "homepage": "https://github.com/fdelacruz/flux-todo-list#readme",
+  "dependencies": {
+    "axios": "^0.7.0",
+    "events": "^1.1.0",
+    "flux": "^2.1.1",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "http-server": "^0.8.5",
+    "jsx-loader": "^0.13.2",
+    "webpack": "^1.12.2"
+  }
+}
